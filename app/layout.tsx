@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Afacad } from "next/font/google";
 import "@/assets/styles/globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const afacad = Afacad({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Zadify Shopping ",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} antialiased`}>{children}</body>
+      <body className={`${afacad.className} antialiased`}>{children}</body>
     </html>
   );
 }
