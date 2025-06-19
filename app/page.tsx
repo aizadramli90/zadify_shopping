@@ -1,5 +1,12 @@
+import { Button } from "@/components/ui/button";
+
 const Homepage = () => {
-  return <div>Homepage. testing for font</div>;
+  return (
+    <div>
+      <Button>ShadCN!</Button>
+      <button>normal</button>
+    </div>
+  );
 };
 
 export default Homepage;
