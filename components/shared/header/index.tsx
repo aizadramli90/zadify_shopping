@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { APP_NAME } from "@/lib/constants/index";
 import "@/app/globals.css";
+import ModeToggle from "./mode-toggle";
 
 const Header = () => {
   return (
@@ -24,6 +25,7 @@ const Header = () => {
           </Link>
         </div>
         <div className="space-x-2">
+          <ModeToggle />
           <Button asChild variant="ghost">
             <Link className="text-white" href="/cart">
               <ShoppingCart /> Cart

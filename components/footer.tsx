@@ -5,8 +5,8 @@ const Footer = () => {
   const currebtYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t flex flex-col md:flex-row items-center py-8 gap-7">
-      <div className="email-subscription p-5">
+    <footer className="border-t flex flex-col md:flex-row md:items-start md:justify-center items-center px-5 py-8 gap-7">
+      <div className="email-subscription">
         <h2 className="font-bold">
           Subscribe to our newsletter for exclusive promotion!
         </h2>
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-2 items-baseline">
+      <div className="flex flex-col gap-2 items-baseline justify-baseline">
         <h2 className="font-bold">Logistics Partner</h2>
         <div>
           <img
@@ -94,22 +94,19 @@ const Footer = () => {
             alt=""
           />
         </div>
-        <div>
-          <img src="" alt="" />
-        </div>
       </div>
 
       <div className="flex flex-col gap-1 items-start">
         <h2 className="font-bold">Aizad Ramli's</h2>
         <Link target="_blank" href={"https://github.com/aizadramli90"}>
-          <i class="fa-brands fa-github"></i> GitHub
+          <i className="fa-brands fa-github"></i> GitHub
         </Link>
         <Link target="_blank" href="/">
-          <i class="fa-solid fa-user-tie"></i> Other Portfolios
+          <i className="fa-solid fa-user-tie"></i> Other Portfolios
         </Link>
       </div>
 
-      <div className="p-5">
+      <div className="">
         {currebtYear} &copy; {APP_NAME}. All rights reserved.
       </div>
     </footer>
