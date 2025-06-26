@@ -1,5 +1,6 @@
 import { APP_NAME } from "@/lib/constants";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   const currebtYear = new Date().getFullYear();
@@ -19,79 +20,103 @@ const Footer = () => {
       <div className="payment-methods flex flex-col gap-2 items-baseline">
         <h2 className="font-bold">Payments</h2>
         <div>
-          <img
-            src="https://down-my.img.susercontent.com/file/735e9b602704f9fcecc0fc589358d5df"
-            alt=""
+          <Image
+            src="/images/payment/visa.jpeg"
+            alt="visa"
+            width={52}
+            height={22}
           />
         </div>
         <div>
-          <img
-            src="https://down-my.img.susercontent.com/file/8612df33671e5fcf4e3896dddc09126f"
-            alt=""
+          <Image
+            src="/images/payment/mastercard.jpeg"
+            alt="mastercard"
+            width={52}
+            height={22}
           />
         </div>
         <div>
-          <img
-            src="https://down-my.img.susercontent.com/file/be96ecd1fe21e89d006f285bae7db4ee"
-            alt=""
+          <Image
+            src="/images/payment/googlepay.png"
+            alt="google pay"
+            width={52}
+            height={22}
           />
         </div>
         <div>
-          <img
-            src="https://down-my.img.susercontent.com/file/2b9fdf2b116defb1373ec0ca833b622e"
-            alt=""
+          <Image
+            src="/images/payment/fpx.jpeg"
+            alt="fpx"
+            width={52}
+            height={22}
           />
         </div>
         <div>
-          <img
-            src="https://down-my.img.susercontent.com/file/4033bf33861a853bcba707d544694940"
-            alt=""
+          <Image
+            src="/images/payment/duitnow.jpeg"
+            alt="duitnow"
+            width={52}
+            height={22}
           />
         </div>
         <div>
-          <img
-            src="https://down-my.img.susercontent.com/file/f9064fd45144e68e314586ee350b52dd"
-            alt=""
+          <Image
+            src="/images/payment/applepay.png"
+            alt="apple pay"
+            width={52}
+            height={22}
           />
         </div>
       </div>
 
-      <div className="flex flex-col gap-2 items-baseline justify-baseline">
+      <div className=" flex flex-col gap-2 items-baseline">
         <h2 className="font-bold">Logistics Partner</h2>
         <div>
-          <img
-            src="https://down-my.img.susercontent.com/file/my-50009109-5ae3048586925c8f6961edd87717a588"
-            alt=""
+          <Image
+            src="/images/logistics/posmalaysia.png"
+            alt="pos malaysia"
+            width={52}
+            height={22}
           />
         </div>
         <div>
-          <img
-            src="https://down-my.img.susercontent.com/file/my-50009109-a7e0a7e8e4e8d134a5ab04cfa87393f9"
-            alt=""
+          <Image
+            src="/images/logistics/ninjavan.jpeg"
+            alt="ninja van"
+            width={52}
+            height={22}
           />
         </div>
         <div>
-          <img
-            src="https://down-my.img.susercontent.com/file/my-50009109-68145ac1a2f9ecebe890bb175f84525c"
-            alt=""
+          <Image
+            src="/images/logistics/j&t.jpeg"
+            alt="J&T"
+            width={52}
+            height={22}
           />
         </div>
         <div>
-          <img
-            src="https://down-my.img.susercontent.com/file/my-50009109-6b71bdaaae0c6c27188b319873536d38"
-            alt=""
+          <Image
+            src="/images/logistics/gdex.png"
+            alt="gdex"
+            width={52}
+            height={22}
           />
         </div>
         <div>
-          <img
-            src="https://down-my.img.susercontent.com/file/my-50009109-89cb13c3ce6e90fd3d68c079adcde008"
-            alt=""
+          <Image
+            src="/images/logistics/flash.png"
+            alt="flash"
+            width={52}
+            height={22}
           />
         </div>
         <div>
-          <img
-            src="https://down-my.img.susercontent.com/file/my-11134258-7rask-m2bsun2czgnzd3"
-            alt=""
+          <Image
+            src="/images/logistics/dhl.jpeg"
+            alt="DHL"
+            width={52}
+            height={22}
           />
         </div>
       </div>
