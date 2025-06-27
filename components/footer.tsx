@@ -19,8 +19,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="payment-methods flex flex-col gap-2 items-baseline">
-        <h2 className="font-bold">Payments</h2>
+      <div
+        className="payment-methods flex flex-col gap-2 items-center md:items-start
+      "
+      >
+        <h2 className="font-bold">Supported Payments</h2>
         {paymentMethods.map((payment) => {
           return (
             <div key={payment.id}>
@@ -35,7 +38,7 @@ const Footer = () => {
         })}
       </div>
 
-      <div className=" flex flex-col gap-2 items-baseline">
+      <div className=" flex flex-col gap-2 items-center md:items-start">
         <h2 className="font-bold">Logistics Partner</h2>
         {registeredLogistics.map((logistic) => (
           <div key={logistic.id}>
