@@ -1,8 +1,8 @@
 import { APP_NAME } from "@/lib/constants";
 import Link from "next/link";
 import Image from "next/image";
-import registeredLogistics from "@/lib/constants/registeredLogistics";
-import paymentMethods from "@/lib/constants/paymentMethods";
+import registeredLogistics from "@/db/registeredLogistics";
+import paymentMethods from "@/db/paymentMethods";
 
 const Footer = () => {
   const currebtYear = new Date().getFullYear();

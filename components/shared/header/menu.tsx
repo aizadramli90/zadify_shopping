@@ -36,7 +36,7 @@ const Menu = () => {
           </SheetTrigger>
           <SheetContent className="px-4">
             <SheetHeader>
-              <SheetTitle>Memu</SheetTitle>
+              <SheetTitle>Menu</SheetTitle>
               <SheetDescription></SheetDescription>
             </SheetHeader>
             <ModeToggle />
