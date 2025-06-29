@@ -32,7 +32,7 @@ const productDataSamples = {
       brand: "Bange",
       rating: 4.9,
       numReviews: 275,
-      stock: 15,
+      stock: 0,
       isFeatured: true,
       banner: "banner-2.svg",
     },

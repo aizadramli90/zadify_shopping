@@ -28,6 +28,14 @@ const ProductCard = ({ product }: { product: any }) => {
         <Link href={`/product/${product.slug}`}>
           <h2>{product.name}</h2>
         </Link>
+        <div className="flex justify-between">
+          <p>{product.rating} Stars</p>
+          {product.stock > 0 ? (
+            <p>{product.price}</p>
+          ) : (
+            <p className="text-destructive">Out of Stock</p>
+          )}
+        </div>
       </CardContent>
     </Card>
   );
