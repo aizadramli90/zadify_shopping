@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Afacad } from "next/font/google";
-import "@/assets/styles/globals.css";
-//import "@/app/globals.css";
+//import "@/assets/styles/globals.css";
+import "@/app/globals.css";
 import { APP_NAME, APP_DESCRIPTION, SERVER_URL } from "@/lib/constants/index";
 import { ThemeProvider } from "next-themes";
 import Head from "./head";

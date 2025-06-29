@@ -10,7 +10,7 @@ export const metadata = {
 const Homepage = async () => {
   //await delay(2000);
   return (
-    <div className="max-w-7xl mx-auto px-5 py-8 flex flex-col mx-auto md:flex-row gap-5">
+    <div className="max-w-7xl mx-auto px-5 py-8 flex flex-col mx-auto gap-5">
       <ProductList
         data={productDataSamples.products}
         limit={4}
