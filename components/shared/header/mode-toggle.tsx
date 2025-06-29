@@ -31,7 +31,7 @@ const ModeToggle = () => {
       <DropdownMenuTrigger asChild>
         <Button variant="outline">
           {theme === "system" ? (
-            <SunMoon className="text-white" />
+            <SunMoon className="text-yellow" />
           ) : theme === "dark" ? (
             <Moon />
           ) : (

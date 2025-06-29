@@ -1,4 +1,6 @@
-import { Button } from "@/components/ui/button";
+import productDataSamples from "@/db/productDataSamples";
+import ProductList from "@/components/shared/product/product-list";
+
 export const metadata = {
   title: "Home",
 };
@@ -8,9 +10,12 @@ export const metadata = {
 const Homepage = async () => {
   //await delay(2000);
   return (
-    <div className="max-w-7xl mx-auto px-5 py-8">
-      <Button>ShadCN!</Button>
-      <button>normal</button>
+    <div className="max-w-7xl mx-auto px-5 py-8 flex flex-col mx-auto md:flex-row gap-5">
+      <ProductList
+        data={productDataSamples.products}
+        limit={4}
+        title="Top Products!"
+      />
     </div>
   );
 };
