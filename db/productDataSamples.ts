@@ -69,7 +69,34 @@ const productDataSamples = {
       stock: 5,
     },
     {
-      name: "Yesder Stationary Bike",
+      name: "Yesoul Stationary Bike",
+      slug: "yesoul-stationary-bike",
+      category: "Sports & Outdoors",
+      description:
+        "A high-quality stationary bike designed for home workouts, featuring adjustable resistance and a comfortable seat. Can be connected to a mobile app for tracking progress and online virtual cycling simulation.",
+      images: [
+        "images/sample-products/4-1.jpg",
+        "images/sample-products/4-2.jpg",
+        "images/sample-products/4-3.webp",
+      ],
+      price: "1099.99",
+      brand: "Yesoul",
+      rating: 4.8,
+      numReviews: 36,
+      stock: 11,
+    },
+    {
+      name: "Keychron V6 Wired/Wireless Mechanical Keyboard ",
+      slug: "keychron-v6-wired-wireless-mechanical-keyboard",
+      category: "Computers & Accessories",
+      description:
+        "A versatile mechanical keyboard with both wired and wireless connectivity options, designed for a comfortable typing experience.",
+      images: [
+        "/images/sample-products/5-1.webp",
+        "/images/sample-products/5-2.jpg",
+      ],
     },
   ],
 };
+
+export default productDataSamples;
